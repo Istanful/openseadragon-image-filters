@@ -1,0 +1,30 @@
+{
+  "name": "openseadragon-image-filters",
+  "version": "1.0.0",
+  "description": "OpenSeaDragon plugin allowing you to add Fabric.js image filters to tiles.",
+  "main": "src/index.js",
+  "dependencies": {
+    "broccoli": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSjoberg/openseadragon-image-filters.git"
+  },
+  "keywords": [
+    "image",
+    "filter",
+    "openseadragon",
+    "seadragon",
+    "fabric"
+  ],
+  "author": "Kevin Sjöberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KevinSjoberg/openseadragon-image-filters/issues"
+  },
+  "homepage": "https://github.com/KevinSjoberg/openseadragon-image-filters#readme"
+}
