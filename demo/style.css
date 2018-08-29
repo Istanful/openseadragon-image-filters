@@ -1,0 +1,15 @@
+body {
+  background-color: #121621;
+}
+
+#container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+#image-viewer {
+  height: 600px;
+  margin: 0 auto;
+  width: 800px;
+}

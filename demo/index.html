@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenSeadragon - Image Filters plugin</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/2.3.6/fabric.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/2.4.0/openseadragon.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="image-viewer"></div>
+    <script>
+      var viewer = OpenSeadragon({
+         id: 'image-viewer',
+         prefixUrl: 'https://openseadragon.github.io/openseadragon/images/',
+         tileSources: {
+           type: 'image',
+           url: 'unsplash.jpeg',
+         },
+       });
+
+       viewer.setFilters([]);
+    </script>
+  </div>
+</body>
+</html>
